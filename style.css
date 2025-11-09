@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    background: url('https://i.pinimg.com/1200x/ef/bd/b9/efbdb90f1eec6d70b1cd9e02cf8bca8f.jpg');
+    color:white;
+    padding: 100px  20px;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+.features {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('https://i.pinimg.com/1200x/ef/bd/b9/efbdb90f1eec6d70b1cd9e02cf8bca8f.jpg') center/cover;
+    
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-box div {
+    width: 30%;
+    /* background-color: white; */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     background: url('https://i.pinimg.com/1200x/ef/bd/b9/efbdb90f1eec6d70b1cd9e02cf8bca8f.jpg');
+}
+
+.listings {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.property-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.property {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    background: url('https://i.pinimg.com/1200x/ef/bd/b9/efbdb90f1eec6d70b1cd9e02cf8bca8f.jpg');
+}
+
+.property img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
